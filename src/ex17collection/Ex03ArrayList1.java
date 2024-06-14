@@ -44,7 +44,7 @@ public class Ex03ArrayList1 {
 		 		length와 동일한 값을 반환한다.
 		 */
 		list.add(list.size(),"오마이걸");
-		list.add(list.size(),"방탄소년단")
+		list.add(list.size(),"방탄소년단");
 		System.out.println("중복 저장전 객체수:"+ list.size()); //6개
 		
 		/*

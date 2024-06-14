@@ -77,7 +77,8 @@ public class E01AbstractMain {
 		//AbsClass1 absClass1 = new AbsClass1();
 		
 		//추상클래스를 상속한 하위클래스는 인스턴스 생성을 할 수 있다.
-		AbsClass1 absClass1 = new AbsClass1();
+		AbsClass1 absClass1 = new AbsClass1() {
+		};
 		AbsClassChild1 absClassChild1 = new AbsClassChild1();
 		
 		/*
