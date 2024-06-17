@@ -42,7 +42,7 @@ public class E04InterfaceConstant {
 		case Game.PAPER:
 			System.out.println("보자기를 냈습니다.");
 			break;
-		default;
+		default:
 			System.out.println("잘못 냈습니다.");
 		
 		}

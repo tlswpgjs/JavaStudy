@@ -56,7 +56,7 @@ public class E09InstanceOf {
 			((PaperBox) b).paperWrap();
 		}
 		else if(b instanceof Box) {
-			h.boxWrap();
+			b.boxWrap();
 		}
 	}
 //	

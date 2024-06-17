@@ -45,7 +45,7 @@ class BusinessMan extends Man {
 		 */
 		this.company = company;
 		this.position = position;
-		super(name);
+//		super(name);
 		System.out.println("BusinessMan 생성자 호출");
 	}
 	public void tellYourInfo() {

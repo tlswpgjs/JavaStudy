@@ -107,14 +107,14 @@ public class E05For {
 		 작성하시오.
 		 */
 		//단에 해당하는 for문
-		for(int dan2= ; dan<=9 ; dan++) {
+		for(int dan2= 1; dan2<=9 ; dan2++) {
 			//수에 해당하는 for문
 			for(int su=1 ; su<=9 ; su++) {
 				//출력은 되지만 정확한 정렬은 되지 않는다.
 //				System.out.print(dan +"*"+ su +"="+ dan*su);
 				
 				//서식문자를 통해 칸을 미리 확보하여 정렬해서 출력한다.
-				System.out.printf("%d*%d=%2d", dan, su, dan*su);
+				System.out.printf("%d*%d=%2d", dan2, su, dan2*su);
 				
 //				각 항목을 구분하기 위해 띄어쓰기
 				System.out.print(" ");
@@ -128,4 +128,4 @@ public class E05For {
 		}
 	}
 
-}
+

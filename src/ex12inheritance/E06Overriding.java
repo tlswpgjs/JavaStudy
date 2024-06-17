@@ -21,7 +21,7 @@ class Speaker {
 	}
 	//상속관계에서 오버라이딩을 목적으로 정의한 메서드
 	public void showState() {
-		System.out.println("스피커의 볼륨크기:"+ volumRate);
+		System.out.println("스피커의 볼륨크기:"+ volumnRate);
 	}
 }
 //자식클래스 : 스피커의 기능에 베이스가 보강된 스피커를 추상화

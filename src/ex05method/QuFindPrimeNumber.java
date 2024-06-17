@@ -3,7 +3,7 @@ package ex05method;
 public class QuFindPrimeNumber {
 
 		
-	public static void isPrimeNumber(int n) {
+	public static boolean isPrimeNumber(int n) {
 		
 		//1은 소수가 아니므로 확인절차 없이 false를 반환
 		if(n==1)

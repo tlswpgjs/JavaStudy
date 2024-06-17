@@ -52,7 +52,7 @@ public class E11Polymorphism {
 	public static void main(String[] args) {
 		
 		//동질화 : 참조변수와 인스턴스의 타입이 동일
-		Mychild myChild = new MyChild() ;
+		MyChild myChild = new MyChild() ;
 		//동질화의 경우 인스턴스 전체 멤버에 접근할 수 있다.
 		myChild.childMember = 10;
 		myChild.parentMember = 100;
@@ -86,7 +86,7 @@ public class E11Polymorphism {
 		 부모의 참조변수로 접근하려면 아래와 같이 강제형변환 해야한다. 소괄호를
 		 이용해서 우선순위에 대한 부분을 처리해야 에러가 발생하지 않는다.
 		 */
-		(MyChild)myParent).childMember = 1;
+//		(MyChild)myParent).childMember = 1;
 		((MyChild)myParent).childMember = 1;
 		((MyChild)myParent).childMethod();
 		((MyChild)myParent).parentMethod();

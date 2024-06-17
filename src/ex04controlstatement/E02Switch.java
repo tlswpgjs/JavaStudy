@@ -85,39 +85,39 @@ public class E02Switch {
 			break;
 		}
 
-	}
-
-
-
-/*
+		/*
 시나리오] 국,영,수 점수의 평균값을 구하여 학점을 출력하는
 	프로그램을 작성하시오. 90점이상은 A학점...
 	60점 미만은 F학점을 출력하면 된다. 
 	단, switch문으로 작성하시오. 
- */
-	int kor=65, eng=70, math=75;
-	// 평균점수를 10으로 나눈 몫을 통해 점수의 구간을 특정할 수 있다.
-	int avg = (kor+eng+math) / (3 * 10);
-	
-	switch (avg) {
-	case 10:case 9:
-		System.out.println("A학점");
-		break;
-	case 8:
-		System.out.println("B학점");
-		break;
-	case 7:
-		System.out.println("C학점");
-		break;
-	case 6:
-		System.out.println("D학점");
-		break;
-	default:
-		System.out.println("F학점");
-		break;
+		 */
+		int kor=65, eng=70, math=75;
+		// 평균점수를 10으로 나눈 몫을 통해 점수의 구간을 특정할 수 있다.
+		int avg = (kor+eng+math) / (3 * 10);
+		
+		switch (avg) {
+		case 10:case 9:
+			System.out.println("A학점");
+			break;
+		case 8:
+			System.out.println("B학점");
+			break;
+		case 7:
+			System.out.println("C학점");
+			break;
+		case 6:
+			System.out.println("D학점");
+			break;
+		default:
+			System.out.println("F학점");
+			break;
+		}
+		
 	}
-  
-  }
 }
+	
+
+
+
 	
 	

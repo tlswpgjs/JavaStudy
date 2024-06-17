@@ -1,5 +1,7 @@
 package ex06array;
 
+import java.util.Random;
+
 public class E01OneDimArray02 {
 
 	public static void main(String[] args) {
@@ -34,7 +36,7 @@ public class E01OneDimArray02 {
 		 4.정수의 결과가 필요하므로 int로 강제형변환한다.
 		 */
 		System.out.println("1~45사이의 난수생성:" +
-		          ((int)((Math.random()*100) % 45)+1 );
+		          (int)((Math.random()*100) % 45)+1 );
 		System.out.println("==========================");
 		
 		/*

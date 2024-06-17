@@ -343,3 +343,4 @@ class FriendInfoHandler {
 					+"번)가 삭제되었습니다==");
 		}
 	}////end of deleteInfo
+}

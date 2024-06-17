@@ -59,7 +59,7 @@ public class E06FruitSalesMain3 {
 		seller2.showSaleResult();
 		buyer.showBuyResult();
 		
-		buyer.buyApple()
+	
 		
 //		seller1.myMoney += 1000;
 //		buyer.myMoney -= 1000;

@@ -6,7 +6,7 @@ public class E02StringMethod1 {
 		
 		System.out.println("String 클래스의 주요 메서도1");
 		
-		String strl = "Welcom to java";
+		String str1 = "Welcom to java";
 		String str2 = "자바야 놀자!";
 		
 		/*
@@ -43,7 +43,7 @@ public class E02StringMethod1 {
 		 */
 		System.out.println("### 4 ###");
 		System.out.println("JAVA".concat("WORLD").concat(" Go"));
-		System.out.println("JAVA+" WORLD"+" GO");"
+		System.out.println("JAVA"+ "WORLD"+" GO");
 				
 		/*
 		 5] contains() : 문자열에 특징 문자열이 포함되었는지 판단하여
