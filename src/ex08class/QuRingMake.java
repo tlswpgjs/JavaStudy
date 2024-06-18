@@ -24,13 +24,13 @@ class Ring{
 	Circle outerCircle;//바깥쪽의 원
 	//블라블라
 }
-class QuRingMake {
-	public static void main(String[] args) {
-		Ring c = new Ring(1,1,3,2,2,9);
-		c.showRingInfo();
-	}
-}
-
-public class QuRingMake {
-
-}
+//class QuRingMake {
+//	public static void main(String[] args) {
+//		Ring c = new Ring(1,1,3,2,2,9);
+//		c.showRingInfo();
+//	}
+//}
+//
+//public class QuRingMake {
+//
+//}
